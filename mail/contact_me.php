@@ -1,4 +1,8 @@
+HTTP/1.1 405 Method Not Allowed
+Content-Type: text/html
+Allow: GET, HEAD, OPTIONS, PUT
 <?php
+
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
